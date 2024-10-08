@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+nav {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 4em;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: salmon;
+}
+
+main {
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1em;
+}
+
+main section.top {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main section.top .left, 
+main section.top .right {
+    background-color: aqua;
+    width: 100%;
+    min-height: 32em;
+    /* overflow-y: scroll; */
+    padding: 1em;
+    text-align: justify;
+    border-radius: 12px 12px 0px 0px;
+}
+
+main section.bottom {
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 0px 0px 12px 12px;
+    text-align: justify;
+}
+
+main section.cards {
+    margin-top: 20px;
+    /* padding: 2em; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.cards .card {
+    background-color: cadetblue;
+    width: 180px;
+    height: 280px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.cards .card:hover {
+    cursor: pointer;
+    scale: 1.08;
+    background-color: rgb(122, 182, 184);
+}
+
+footer {
+    background-color: violet;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .2em;
+}
