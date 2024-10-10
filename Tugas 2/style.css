@@ -89,8 +89,8 @@ main .btn-fam {
 
 main .btn-fam a {
     text-decoration: none;
-    width: 135px;
-    height: 45px;
+    width: 165px;
+    height: 65px;
     background-color: var(--bg-btn);
     display: flex;
     justify-content: center;
