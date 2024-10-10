@@ -101,7 +101,7 @@ main .btn-fam a {
 
 main .btn-fam a:hover {
     background-color: var(--bg-btn-light);
-    scale: 0.92;
+    scale: 0.95;
 }
 
 aside {
